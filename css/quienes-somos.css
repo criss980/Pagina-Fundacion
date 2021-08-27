@@ -579,7 +579,8 @@ footer p {
     margin-bottom: 32px;
   }
   .img-Quienes-somos {
-    width: 100%;
+    width: 90% !important;
+    height: 290px;
   }
   .titulo {
     font-size: 50px;
