@@ -528,7 +528,11 @@ footer p {
 @media screen and (max-width: 990px) {
   .textos-hero h1 {
     text-align: center;
-    font-size: 50px;
+    font-size: 70px !important;
+  }
+  .textos-hero h3 {
+    text-align: center;
+    font-size: 40px !important;
   }
   /* estilos generales */
   .titulo {
@@ -557,10 +561,6 @@ footer p {
   .website .contenedor-textos-main {
     width: 100%;
   }
-
-  /* Cards */
-
-
 
   /* galeria */
 
@@ -595,10 +595,11 @@ footer p {
 @media screen and (max-width: 500px) {
   .titulo,
   .textos-hero h1 {
-    font-size: 50px;
+    font-size: 50px !important;
+    text-align: center;
   }
   .textos-hero h3 {
-    font-size: 30px;
+    font-size: 30px !important;
   }
   .title {
     text-align: center !important;
